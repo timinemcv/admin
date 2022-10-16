@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="firstCon">
+            <div class="row">
+                <img src="images/logo.png" alt="">
+            </div>
+            <span class="allImg">
+            <a href="admin.html"><img src="images/ic1.png" alt="">Dashboard</a>
+           <button class="addBtn" id="addBtn" type="button" style="background-color: unset;border:unset; cursor: pointer;"><a href="#"><img src="images/ic2.png">Add Products</a></button>
+            <div>
+                <button class="viewBtn" id="viewBtn" type="button" style="background-color: unset;border:unset; cursor: pointer;"><a href="#"><img src="images/ic4.png">View Products</a></button>
+            </div>
+            <button type="button" class="addBtn" style="background-color: unset;border:unset; pointer-events: none;"><a href="test.html" style="display: block;width:100%;height: 100%; pointer-events: all;"><img src="images/ic3.png" alt="">Users</a></button>
+        </span>
+        </div>
+        
+        <div class="secondCon">
+            <div class="sub">
+            <div class="headSec">
+           <div>☰ Dashboard</div>
+           <div><input type="search" placeholder="search here" style="border-radius: 10px;width:220px;height: 24px;"></div>
+           <div class="admin"><img src="images/ani.png" alt="">
+            <div><h4>ADMIN</h4>
+            <small>Analyst</small></div>
+            </div></div>
+        </div>
+        <div class="userSection" id="userSection">
+
+            <form>
+                <p>Input Info</p>
+                <div class="display1">
+                <input type="text" class="Name" id="userName" placeholder="NAME">
+                <input type="number" id="phone" class="phone" placeholder="NUMBER">
+                <input type="email" id="email" class="email" placeholder="EMAIL">
+                <input type="password" id="password" class="password" placeholder="PASSWORD">
+            </div>
+                <button type="button" id="infoBtn" class="infoBtn">Save Info</button>
+            </form>
+        </div>
+        <div class="inputData">
+            <div class="tableT">
+                <h1>USERS</h1>
+                <button type="button" id="userBtn" class="userBtn">Add User</button>
+            </div>
+    
+        <table class="tb">
+            <thead class="tableH">
+                <tr>
+                    <th>S/N</th>
+                    <th>NAME</th>
+                    <th>PHONE #</th>
+                    <th>EMAIL</th>
+                    <th>PASSWORD</th>
+                    <th>MODIFY</th>
+                </tr>
+            </thead>
+            <tbody class="userView">
+                
+            </tbody>
+        </table>
+        </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="jquery-3.6.1.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

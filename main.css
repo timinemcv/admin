@@ -1,0 +1,311 @@
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.todo .display {
+  display: block;
+  width: 100%;
+  margin-left: 40px;
+}
+.todo {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+}
+.todo form {
+  width: 30%;
+  position: absolute;
+  top: 40%;
+  right: 22%;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(163, 159, 159);
+  border-radius: 20px;
+  text-align: center;
+}
+.todo form input {
+  display: block;
+  padding: 10px;
+  margin: 5px;
+  width: 80%;
+  border: 1px solid grey;
+  margin-top: 10px;
+}
+.todo select {
+  display: block;
+  width: 80%;
+  margin-left: 5px;
+  padding: 10px;
+  gap: 3px;
+}
+.todo form button {
+  width: 80px;
+  margin: auto;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+.tableTop {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding: 20px;
+  width: 95%;
+}
+.dataInput table {
+  width: 95%;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+.dataInput .tableTop h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+.dataInput {
+  background-color: #eaeaea;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  margin: auto;
+  height: auto;
+  margin-top: 20px;
+}
+th {
+  padding: 10px;
+}
+td {
+  padding: 10px;
+}
+td img {
+  height: 100px;
+  width: 100px;
+}
+
+.pag1 a {
+  color: black;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+}
+.firstCon {
+  width: 345px;
+  height: 100%;
+  position: fixed;
+  padding-top: 10px;
+  background-color: #dc2f6e;
+}
+.firstCon a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+}
+.secondCon {
+  margin-left: 350px;
+  margin-top: 15px;
+}
+.headSec {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  gap: 70px;
+  margin-top: 20px;
+  border-bottom: 2px solid lightgrey;
+  padding-bottom: 15px;
+}
+
+.row img {
+  width: 220px;
+  height: 60px;
+  margin-left: 30px;
+}
+.row2 a {
+  text-decoration: none;
+  color: #141517;
+}
+.row2 {
+  margin-top: 20px;
+  justify-content: right;
+}
+.row2 img {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+}
+.allImg img {
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-color: #fac6e1;
+  margin-left: 20px;
+}
+.allImg a {
+  text-decoration: none;
+  color: #fac6e1;
+}
+.addBtn,
+.viewBtn {
+  color: #fac6e1;
+  font-size: 18px;
+}
+.headSec img {
+  width: 30px;
+  height: 30px;
+}
+.headSec h4 {
+  font-size: 10px;
+  font-weight: 900;
+}
+.headSec small {
+  font-size: 10px;
+  font-weight: 500;
+}
+.headSec .admin {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.subSec {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+  background-color: #fefefe;
+}
+.admin1 {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid lightgrey;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 300px;
+}
+.admin1 img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.productList {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.productList img {
+  width: 250px;
+  height: 250px;
+}
+.funC p,
+.funC h5,
+.funC h6,
+.funC a {
+  margin-left: 70px;
+}
+.userSection {
+  width: 100%;
+}
+.userSection .display1 {
+  width: 100%;
+}
+.userSection {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  position: absolute;
+  top: 33%;
+  left: 30%;
+}
+.userSection form {
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(163, 159, 159);
+  border-radius: 20px;
+  text-align: center;
+}
+.userSection form input {
+  display: block;
+  padding: 10px;
+  margin: 5px;
+  width: 90%;
+  border: 1px solid grey;
+}
+.userSection form button {
+  width: 80px;
+  margin: auto;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+
+.tableT {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding: 20px;
+  width: 95%;
+}
+.inputData table {
+  width: 95%;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+.inputData .tableT h1 {
+  font-weight: 300;
+}
+.inputData {
+  margin-left: 400px;
+  background-color: #eaeaea;
+  width: 90%;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  margin: auto;
+  height: auto;
+  margin-top: 20px;
+}
+.tb th {
+  padding: 10px;
+}
+.tb td {
+  padding: 10px;
+}
+.tableT button:hover,
+.infoBtn button:hover,
+.pag2 a:hover {
+  background-color: #eaeaea;
+  color: black;
+  transition: 1s;
+}
+.tableT button {
+  border-radius: 10px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+select {
+  width: 80%;
+  height: 40px;
+  margin-top: 5px;
+  padding: 5px;
+}
+.pag2 a {
+  padding: 8px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
